@@ -1,0 +1,92 @@
+body,html{
+     		margin: 0;
+     		font: 16px "Lato" , sans-serif;
+     		color:#777;
+     		height:100%;
+
+     	}
+
+
+     	.conteudo{
+     		color:#777;
+     		background-color:white; 
+     		text-align:justify;
+     		padding:50px 80px;
+     	}
+
+     	h3{
+     		text-transform:uppercase;
+     		color: #111;
+     		text-align: center;
+
+     	}
+
+          p{margin-bottom: 20px}
+
+     	/*efeito paralax*/
+
+     	.caixa1, .caixa2, .caixa3, .caixa4,.caixa5,.caixa6,.caixa7,.caixa8,.caixa9 { 
+               position: relative;
+               height: 100%;
+               opacity: 0.8;
+               background-repeat: no-repeat;
+               background-size: cover;
+               background-position: center;
+               background-attachment: fixed; 
+          }
+
+     
+     	
+     	.caixa1{
+     		background-image: url(../imagens/mandalorian.jpg);
+
+     	}
+     	.caixa2{
+     		background-image: url(../imagens/Kuiil.jpg);
+
+     	}
+          .caixa3{
+               background-image: url(../imagens/baby.jpg);
+
+          }
+          .caixa4{
+               background-image: url(../imagens/cara-dune.jpg);
+
+          }
+          .caixa5{
+               background-image: url(../imagens/Mythrol.jpg);
+
+          }
+          .caixa6{
+               background-image: url(../imagens/IG-11.jpg);
+
+          }
+          .caixa7{
+               background-image: url(../imagens/bo-Katan.jpg);
+
+          }
+          .caixa8{
+               background-image: url(../imagens/moff-gideon.jpg);
+
+          }
+          .caixa9{
+               background-image: url(../imagens/greef_karga.jpg);
+
+          }
+          
+          .conteudo-titulo {
+               position: absolute;
+               left: 0;
+               top: 45%;
+               width: 100%;
+               text-align: center;
+          }
+
+          .conteudo-titulo span.titulo {
+               color: #fff;
+               background-color: #111;
+               padding: 18px;
+               font-size: 25px;
+               letter-spacing: 5px;
+               text-transform: uppercase;
+          }
